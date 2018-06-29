@@ -42,7 +42,7 @@ int main () {
 	int arr_len = sizeof(arr) / sizeof(arr[0]);
 	mergeSort(arr, 0, arr_len-1);
 	for ( int i = 0 ; i < arr_len ; i ++) {
-		printf("arr[%d] : %d\n", i, arr[i]);
+		cout <<"arr["<<i<<"] : " << arr[i] <<endl;
 	}
     return 0;
 }

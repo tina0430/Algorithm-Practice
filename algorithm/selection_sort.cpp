@@ -33,7 +33,7 @@ int main () {
 	selectionSort(arr, arr_len);
 	
 	for ( int i = 0 ; i < arr_len ; i ++) {
-		printf("arr[%d] : %d\n", i, arr[i]);
+		cout <<"arr["<<i<<"] : " << arr[i] <<endl;
 	}
 }
 */
