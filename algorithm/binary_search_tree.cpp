@@ -57,6 +57,7 @@ public :
    BinaryTree (int arr[], int arr_len) { makeTree(arr, arr_len-1); }
 };
 
+/*
 int main () {
    int myArr[10] = {1,3,4,6,7,9,10,22,43,100};
    int arr_len = sizeof (myArr) / sizeof (myArr[0]);
@@ -71,3 +72,4 @@ int main () {
    tmp = *myTree.rootNode.right;
    cout << "root-left : " << tmp.value << endl;
 }
+*/

@@ -7,10 +7,10 @@ using namespace std;
 
 void selectionSort(int arr[], int arr_len){
 	for ( int i = 0 ; i < arr_len-1 ; i++ ){
-		
+	
 		int min_num = arr[i];
 		int min_idx = i;
-		for ( int j = i+1 ; j < arr_len ; j ++) {
+		for ( int j = i+1 ; j < arr_len ; j++ ) {
 			if (arr[j] < min_num){
 				min_num = arr[j];
 				min_idx = j;
@@ -18,9 +18,9 @@ void selectionSort(int arr[], int arr_len){
 		}
 		
 		if (min_idx != i) {
-			int temp = arr[i];
+			int tmp = arr[i];
 			arr[i] = min_num;
-			arr[min_idx] = temp;
+			arr[min_idx] = tmp;
 		}
 	}
 }
