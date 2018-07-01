@@ -81,6 +81,7 @@
     <ClCompile Include="insertion_sort.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="merge_sort .cpp" />
+    <ClCompile Include="quick_sork.cpp" />
     <ClCompile Include="radix_sort.cpp" />
     <ClCompile Include="selection_sort.cpp" />
   </ItemGroup>

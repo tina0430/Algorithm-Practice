@@ -1,5 +1,4 @@
 #include <iostream>
-#include <queue>
 using namespace std;
 
 void merge(int arr[], int p, int q, int r){
@@ -34,7 +33,6 @@ void mergeSort(int arr[], int p, int r){
 		merge(arr, p, q,  r);
 	}
 }
-
 
 /*
 int main () {

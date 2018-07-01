@@ -1,9 +1,5 @@
 #include <iostream>
-#include <queue>
 using namespace std;
-
-#include <stdio.h>
-
 
 void selectionSort(int arr[], int arr_len){
 	for ( int i = 0 ; i < arr_len-1 ; i++ ){
